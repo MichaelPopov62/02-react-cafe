@@ -5,8 +5,8 @@
 export type VoteType = "good" | "neutral" | "bad";
 
 // Інтерфейс для опису структури об'єкта голосів
-export type Votes = {
+export interface Votes {
   good: number; //кількість позитивних голосів
   neutral: number; // кількість нейтральних голосів.
   bad: number; //кількість негативних голосів.
-};
+}

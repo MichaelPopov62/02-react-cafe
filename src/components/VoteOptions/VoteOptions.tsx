@@ -5,10 +5,11 @@
        3. Передача подій (функцій) через пропси для обробки голосування та скидання голосів..*/
 
 import css from "./VoteOptions.module.css"; // Імпорт модульних стилів
+import type { VoteType } from "../../types/votes"; // Імпортуємо тип VoteType
 
 // Оголошую типи для пропсів
 interface VoteOptionsProps {
-  onVote: (type: "good" | "neutral" | "bad") => void; // Функція для голосування
+  onVote: (type: VoteType) => void; // Функція для  обробки голосування(отримує тип голосу)
   onReset: () => void; // Функція для скидання голосів
   canReset: boolean; // Показувати кнопку Reset чи ні
 }
