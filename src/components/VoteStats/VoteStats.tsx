@@ -6,7 +6,7 @@
  5.Лише рендерить інформацію, передану через пропси.*/
 
 // Імпорт типу Votes, який описує об'єкт голосів
-import type { Votes } from "../../Types/Votes";
+import type { Votes } from "../../types/votes";
 
 // Імпорт стилів для компонента
 import styles from "./VoteStats.module.css";
