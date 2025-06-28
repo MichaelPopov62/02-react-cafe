@@ -7,7 +7,7 @@
 import css from "./App.module.css"; //Імпорт стилів, специфічних для компонента App
 import CafeInfo from "../CafeInfo/CafeInfo"; //Компонент, що відображає загальну інформацію про кафе
 import { useState } from "react"; // хук для зберігання данних(votes)
-import type { Votes, VoteType } from "../../Types/Votes"; //тип для зберігання типів голосів
+import type { Votes, VoteType } from "../../types/Votes"; //тип для зберігання типів голосів
 // import type { VoteType } from "../../Types/Votes"; //тип  стану голосів
 import VoteOptions from "../VoteOptions/VoteOptions"; //компонент для вибору голосів
 import VoteStats from "../VoteStats/VoteStats"; //компонент для відображеня статистикі голосів
